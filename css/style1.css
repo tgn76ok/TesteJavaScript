@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ 
+
+body {
+    font: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: #e6b800;
+}
+#posts-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 5;
+
+}
+
+.cabecalho-img {
+    height: 90px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 150px;
+}
+
+.cabecalho-menu-item {
+    color: #e6b800;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.linha{
+    border-color: #e6b800;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e6b800;
+}
+
+.imagem-principal{
+    padding: 120px 0px 100px 0px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo-principal-texto{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e6b800;
+    max-width: 1100px;
+}
+
+.headerAPI{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerCard h1{
+    color: #e6b800;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.parteCards{
+  margin-bottom: 20px;
+
+}
+
+.headerAPI .CARD{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.parteCards .CARD{
+    width: 30vw;
+    height: 25vh;
+    border: 5px solid rgba(226, 140, 11, 0.945);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CARD .cardbackground{
+    background: linear-gradient(180deg, rgba(180,58,58,1) 0%, rgba(255,101,101,0.8449754901960784) 50%, rgba(255,206,138,1) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardbackground div{
+    padding: 10px;
+    margin: 5px;
+}
+
+.cardbackground .nomePersonagem{
+    width: 85%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: double;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nome{
+    color: black;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#nome2{
+    color: black;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#nome3{
+    color: black;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;  
+}
+
+#nome4{
+    color: black;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#nome5{
+    color: black;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.cardbackground .imgCard{
+    width: 75%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px 10px;
+    border: black;
+}
+
+
+.cardbackground .alturaPersonagem{
+    width: 80%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-items: end;
+    align-items: center;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.cardbackground .pesoPersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.cardbackground .cordapelePersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.cardbackground .corolhoPersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.cardbackground .aniversarioPersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.cardbackground .sexoPersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.CARD p{
+    display: inline;
+}
+
+.comapoText{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 10%;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+a{
+    color: wheat;
+}
